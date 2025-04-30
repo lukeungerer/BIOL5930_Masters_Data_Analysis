@@ -20,8 +20,21 @@ will be structured to be all lowercase with spaces and units of measure being
 separated by underscores. An example of this turbidity_ntu for a variable or 
 mp_microscope_sheet with mp referring to microplastics. 
 
-The structure for my data this project will go as follows, I will have folders 
-for my datasets (i.e., lakes_database lakes_mp_abundance) and I will also have
-folders for statistical analyses, scripts, graphs, and additional folders if the
-need for them should arise. 
+The structure for my data this project will go as follows:
+
+-Conversion folder with code embedded to convert sediment grain size values from 
+grams to kilograms so that the abundance of microparticles in the sediments 
+could be compared to those in the water column (1 L = 1 kg). 
+
+-WQ_Analysis folder where I determined if turbidity was significantly related to 
+the abundance of microparticles in the water column. 
+
+-MP_Summary.R folder where I organized all of my microparticle data so that the 
+abundance of all color-morphology combinations (e.g., blue fibers, red foams,
+purple fragments, etc.) of detected microparticles were summarized and exported
+as an Excel.csv. 
+
+-Data_Normality.R folder where I determined if my data sets were normally distributed. 
+Data that was not normally distributed had undergone Wilcoxon Mann-Whitney U 
+tests. 
 
