@@ -18,7 +18,7 @@ Shelbyville on June 6th, 2024: 240606S28. Water quality parameters, sediment bed
 characteristics, microplastic densities, and all other files containing data 
 will be structured to be all lowercase with spaces and units of measure being 
 separated by underscores. An example of this turbidity_ntu for a variable or 
-mp_microscope_sheet with mp referring to microplastics. 
+mp_microscope_sheet with mp referring to microparticles. 
 
 The structure for my data this project will go as follows:
 

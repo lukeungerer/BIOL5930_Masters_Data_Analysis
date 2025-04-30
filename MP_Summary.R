@@ -27,7 +27,7 @@ summary <- detail %>%
   group_by(MPSID) %>% # groups data by MPSID
   summarise(total=n(), # counts the number of rows associated with each MPSID (to provide your total MP number)
             avgsize= mean(Length)) # averages the lengths of particles for the rows within each MPSID
-```
+
 
 ## Size Bins
 bins <- detail %>%

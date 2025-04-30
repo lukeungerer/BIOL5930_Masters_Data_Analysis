@@ -17,7 +17,7 @@ par(mfrow = c(2, 2))
 plot(lm_model)
 
 
-#####Load Shelbyville sediment data
+####Load Shelbyville sediment data
 shelbyville_sediment <- read.csv("data/shelbyville_sed.csv")
 
 ####Defining the response and predictor variables
